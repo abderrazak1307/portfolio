@@ -1,0 +1,57 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 750px;
+}
+.footer{
+  max-width: 750px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+p{
+  color: rgb(203 213 225);
+}
+a:not(.btn):hover {
+  color: white;
+  font-weight: 500;
+}
+
+
+body {
+  background: linear-gradient(-45deg, #153f93, rgb(2, 6, 18));
+  background-size: 200% 200%;
+  animation: gradient 8s ease-in-out infinite;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
