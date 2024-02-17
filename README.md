@@ -1,2 +1,2 @@
 # portfolio
-My portfolio &lt;3
+Welcome to my portfolio, built in React.js.
